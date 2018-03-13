@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>com.aayulogic.intellij.vuetify</id>
+  <name>Vuetify</name>
+  <version>1.0</version>
+  <vendor email="info@aayulogic.com" url="https://www.aayulogic.com">Aayulogic</vendor>
+
+  <description><![CDATA[
+      <h2>Vuetify live templates</h2>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release.<br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="171.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
