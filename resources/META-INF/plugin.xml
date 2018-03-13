@@ -23,6 +23,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
+    <defaultLiveTemplatesProvider implementation="org.jetbrains.vuetify.liveTemplate.MarkdownTemplateProvider"/>
   </extensions>
 
   <actions>
