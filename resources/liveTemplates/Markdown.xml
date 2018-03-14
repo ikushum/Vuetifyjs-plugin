@@ -1,5 +1,5 @@
 <templateSet group="Markdown">
-    <template name="[" value="[$TEXT$]($LINK$)$END$" description="New link reference." toReformat="false" toShortenFQNames="false">
+    <template name="era" value="[$TEXT$]($LINK$)$END$" description="New link reference." toReformat="false" toShortenFQNames="false">
         <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="LINK" expression="complete()" defaultValue="" alwaysStopAt="true" />
         <context>
