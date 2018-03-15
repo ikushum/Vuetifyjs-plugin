@@ -1,0 +1,78 @@
+<templateSet group="Vuetify">
+    <template name="v-alert-success" value="&lt;v-alert type=&quot;success&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Success statement" toReformat="true" toShortenFQNames="true">
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-info" value="&lt;v-alert type=&quot;info&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Info statement" toReformat="true" toShortenFQNames="true">
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-warning" value="&lt;v-alert type=&quot;warning&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Warning statement" toReformat="true" toShortenFQNames="true">
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-error" value="&lt;v-alert type=&quot;error&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Error statement" toReformat="true" toShortenFQNames="true">
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-closable" value="&lt;v-alert type=&quot;$success$&quot; dismissible v-model=&quot;alert&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Closable statement" toReformat="true" toShortenFQNames="true">
+        <variable name="success" expression="" defaultValue="&quot;success&quot;" alwaysStopAt="true" />
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-icon" value="&lt;v-alert color=&quot;$success$&quot; icon=&quot;$new_releases$&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Custom Icon statement" toReformat="true" toShortenFQNames="true">
+        <variable name="success" expression="" defaultValue="&quot;success&quot;" alwaysStopAt="true" />
+        <variable name="new_release" expression="" defaultValue="&quot;new_release&quot;" alwaysStopAt="true" />
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-noicon" value="&lt;v-alert color=&quot;$error$&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert No Icon statement" toReformat="true" toShortenFQNames="true">
+        <variable name="error" expression="" defaultValue="&quot;error&quot;" alwaysStopAt="true" />
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-transition" value="&lt;v-alert type=&quot;$success$&quot; :value=&quot;alert&quot; transition=&quot;$scale-transition$&quot; &gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert transition statement" toReformat="true" toShortenFQNames="true">
+        <variable name="success" expression="" defaultValue="&quot;success&quot;" alwaysStopAt="true" />
+        <variable name="scale-transition" expression="" defaultValue="&quot;scale-transition&quot;" alwaysStopAt="true" />
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="v-alert-outline" value="&lt;v-alert outline color=&quot;info&quot; icon=&quot;$info$&quot; :value=&quot;true&quot;&gt;&#10;  $text$&#10;&lt;/v-alert&gt;" description="Vuetify v-alert Outline statement" toReformat="true" toShortenFQNames="true">
+        <variable name="info" expression="" defaultValue="&quot;info&quot;" alwaysStopAt="true" />
+        <variable name="text" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+</templateSet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
